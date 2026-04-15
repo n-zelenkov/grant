@@ -53,13 +53,13 @@
             if (category === 'expensive') {
                 availableTariffs = EXPENSIVE_TARIFFS;
                 unavailableTariffs = UNAVAILABLE_EXPENSIVE;
-                availableTitle = 'Грант одобрен (льготные тарифы)';
-                unavailableTitle = 'Грант не одобрен (тарифы без льготы)';
+                availableTitle = 'Грант одобрен ';
+                unavailableTitle = 'Грант не одобрен ';
             } else {
                 availableTariffs = CHEAP_TARIFFS;
                 unavailableTariffs = UNAVAILABLE_CHEAP;
-                availableTitle = 'Грант одобрен (льготные тарифы)';
-                unavailableTitle = 'Грант не одобрен (стандартные тарифы)';
+                availableTitle = 'Грант одобрен';
+                unavailableTitle = 'Грант не одобрен';
             }
             return `
                 <div style="margin-top: 12px;">
